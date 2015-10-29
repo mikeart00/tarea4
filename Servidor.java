@@ -52,6 +52,14 @@ public class Servidor implements PublicacionSuscripcion {
         return true;
     }
 
+    
+    public String verificaBuzonNotificaciones(String usuario) {
+        Usuario u = usuarios.get(usuario);
+        
+        return u.leeNotificacion();
+    }
+            
+            
     public static void main(String args[]) {
 
         try {

@@ -1,0 +1,11 @@
+javac *.java
+
+
+ //Borrar despues/////////////////////////////
+            registro_correcto = ps.registrarse("Fionis");
+            System.out.println("Registrandose en el sistema. " + registro_correcto);
+            ps.suscripcion("Fionis", "Mascotas");
+            ps.suscripcion("Fionis", "Salchichas");
+            ////////////////////////////////////////////////
+			
+			

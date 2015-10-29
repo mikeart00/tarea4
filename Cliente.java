@@ -23,6 +23,9 @@ public class Cliente {
             boolean registro_correcto = ps.registrarse(usuario);
             System.out.println("Registrandose en el sistema. " + registro_correcto);
             
+            
+            
+            
             boolean resultado;
             resultado = ps.suscripcion(usuario, "Mascotas");
             System.out.println("Suscribiendo al topico -Mascotas- " + resultado);
@@ -30,7 +33,24 @@ public class Cliente {
             resultado = ps.suscripcion(usuario, "Mascotas");
             System.out.println("Suscribiendo al topico -Mascotas- " + resultado);
             
-                        
+            resultado = ps.suscripcion(usuario, "Salchichas");
+            System.out.println("Suscribiendo al topico -Salchichas- " + resultado);
+            
+            
+ //Borrar despues/////////////////////////////
+            registro_correcto = ps.registrarse("Fionis");
+            System.out.println("Registrandose en el sistema. " + registro_correcto);
+            ps.suscripcion("Fionis", "Mascotas");
+            ps.suscripcion("Fionis", "Salchichas");
+            ////////////////////////////////////////////////
+           
+            
+            String notificacion = "1";
+            
+            do {
+                notificacion = ps.verificaBuzonNotificaciones(usuario);
+                System.out.println("Leyendo notificacion '" + notificacion + "'");
+            }  while(notificacion != null);           
             System.out.println("Cliente Terminado");
 
             
