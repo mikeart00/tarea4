@@ -2,36 +2,54 @@ import java.rmi.registry.Registry;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
-import java.util.Hashtable;
+import java.util.*;
 
 
-public class Usuario {
 
-    int id;
-    String nombre_de_usuario;
-    
-    public Usuario() {
-        
-    }
-}
 
 public class Servidor implements PublicacionSuscripcion {
 
     
     Hashtable<String, Usuario> usuarios = new Hashtable<String, Usuario>();
+    Hashtable<String, Grupo> grupos = new Hashtable<String, Grupo>();
     
     public Servidor() {}
 
-    public void registrarse(String nombre_de_usuario) {
+    public boolean registrarse(String nombre_de_usuario) {
 
+        System.out.println("registrarse: Petición de agregar nombre_de_usuario:  "+nombre_de_usuario);
         //El usuario ya existe
         if(!usuarios.containsKey(nombre_de_usuario)) {
-            usuarios.put(nombre_de_usuario, new Usuario());
+            usuarios.put(nombre_de_usuario, new Usuario(nombre_de_usuario));
+            System.out.println("registrarse: Usuario "+nombre_de_usuario+" es nuevo. Agregando a la memoria.");
+        } else {
+            System.out.println("registrarse: Usuario "+nombre_de_usuario+" ya esta en memoria.");
         }
         
-                
-                
+        return true;
+    }
+    
+    public boolean suscripcion(String usuario, String topico) {
+        System.out.println("suscripcion: Petición de suscribir usuario:  "+usuario + "a grupo: " + topico);
         
+        //Verificar que el topico exista
+        if(!grupos.containsKey(topico)) {
+            grupos.put(topico, new Grupo(topico));
+            System.out.println("suscripcion: Grupo "+topico+" es nuevo. Agregando a la memoria.");
+        } else {
+            System.out.println("suscripcion: Grupo "+topico+" ya esta en memoria.");
+        }
+        
+        Grupo g;
+        g = grupos.get(topico);
+        
+        
+        
+        return g.suscribir(usuarios.get(usuario));
+    }
+    
+    public boolean desuscripcion(String usuario, String topico) {
+        return true;
     }
 
     public static void main(String args[]) {

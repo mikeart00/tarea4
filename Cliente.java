@@ -10,16 +10,28 @@ public class Cliente {
     
     public static void main(String[] args) {
 
-        String host = (args.length < 1) ? null : args[0];
+        //String host = (args.length < 1) ? null : args[0];
+        
+        String host = args[0];
+        String usuario = args[1];
+        
         try {
             Registry registry = LocateRegistry.getRegistry(host);
             PublicacionSuscripcion ps = (PublicacionSuscripcion) registry.lookup("PublicacionSuscripcion");
             
             
-            ps.registrarse("Mike");
-            System.out.println("Registrandose en el sistema. Mi id es " + id);
+            boolean registro_correcto = ps.registrarse(usuario);
+            System.out.println("Registrandose en el sistema. " + registro_correcto);
+            
+            boolean resultado;
+            resultado = ps.suscripcion(usuario, "Mascotas");
+            System.out.println("Suscribiendo al topico -Mascotas- " + resultado);
+            
+            resultado = ps.suscripcion(usuario, "Mascotas");
+            System.out.println("Suscribiendo al topico -Mascotas- " + resultado);
+            
                         
-            System.out.println("Trabajo Terminado");
+            System.out.println("Cliente Terminado");
 
             
         } catch (Exception e) {
