@@ -4,9 +4,9 @@ import java.rmi.registry.Registry;
 import java.util.Random;
 import java.io.*;
 
-public class Cliente {
+public class ClienteApp {
 
-    private Cliente() {}
+    private ClienteApp() {}
     
     public static void main(String[] args) {
 
