@@ -30,7 +30,7 @@ public class Servidor implements PublicacionSuscripcion {
     }
     
     public boolean suscripcion(String usuario, String topico) {
-        System.out.println("suscripcion: Petición de suscribir usuario:  "+usuario + "a grupo: " + topico);
+        System.out.println("suscripcion: Petición de suscribir usuario:  "+usuario + " a grupo: " + topico);
         
         //Verificar que el topico exista
         if(!grupos.containsKey(topico)) {
@@ -39,19 +39,40 @@ public class Servidor implements PublicacionSuscripcion {
         } else {
             System.out.println("suscripcion: Grupo "+topico+" ya esta en memoria.");
         }
-        
-        Grupo g;
-        g = grupos.get(topico);
-        
-        
+        Grupo g = grupos.get(topico);
         
         return g.suscribir(usuarios.get(usuario));
     }
     
     public boolean desuscripcion(String usuario, String topico) {
-        return true;
+        System.out.println("suscripcion: Petición de desuscribir usuario:  "+usuario + " del grupo: " + topico);
+        Grupo g = grupos.get(topico);
+        
+        
+        return g.desuscribir(usuario);
     }
 
+    public String[] listaTopicos(String usuario) {
+        System.out.println("listaTopicos: usuario = "+usuario);
+        
+        String resultado = "";
+
+        Set<String> keys = grupos.keySet();
+        
+        Grupo g;
+        for(String key: keys){
+            g = grupos.get(key);
+            if(g.esParteDe(usuario)) {
+                if(resultado.equals("")) {
+                    resultado = key;
+                } else {
+                  resultado = resultado + "<;>" + key;
+                }
+            }
+        }
+        System.out.println("listaTopicos: usuario = "+usuario + " {" + resultado+"}");
+        return resultado.split("<;>");
+    }
     
     public String verificaBuzonNotificaciones(String usuario) {
         Usuario u = usuarios.get(usuario);

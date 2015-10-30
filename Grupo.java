@@ -37,4 +37,24 @@ public class Grupo {
         }
     }
     
+    public boolean esParteDe(String usuario){
+        return usuarios.containsKey(usuario);
+    }
+    
+    public boolean desuscribir(String usuario) {
+        
+        System.out.println("Grupo[" + this.topico+ "].desubscribir: Usuario "+usuario+"");
+        
+        
+        if(usuarios.containsKey(usuario)) {
+            System.out.println("Grupo[" + this.topico+ "].desubscribir: Usuario "+usuario+" TRUE");
+            usuarios.remove(usuario);
+            return true;
+            
+        }   
+        System.out.println("Grupo[" + this.topico+ "].desubscribir: Usuario "+usuario+" FALSE");
+        
+        return false;
+    }
+    
 }
