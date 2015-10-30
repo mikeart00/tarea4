@@ -14,11 +14,9 @@ public class Cliente {
         try {
             this.registry = LocateRegistry.getRegistry(host);
             this.ps = (PublicacionSuscripcion) registry.lookup("PublicacionSuscripcion");
-            
-            
             boolean registro_correcto = ps.registrarse(this.usuario);
         } catch (Exception e) {
-            System.err.println("Excepción en el Cliente: " + e.toString());
+            System.err.println("ExcepciÃ³n en el Cliente: " + e.toString());
             e.printStackTrace();
         }
     }

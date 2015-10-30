@@ -37,6 +37,7 @@ public class Grupo {
         }
     }
     
+
     public boolean esParteDe(String usuario){
         return usuarios.containsKey(usuario);
     }
@@ -58,3 +59,4 @@ public class Grupo {
     }
     
 }
+

@@ -3,6 +3,7 @@ public class Notificacion {
     
     String mensaje;
     boolean leida;
+    String topico;
     
     public  Notificacion(String mensaje_arg) {
         this.mensaje = mensaje_arg;
