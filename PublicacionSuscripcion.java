@@ -7,4 +7,5 @@ public interface PublicacionSuscripcion extends Remote {
     boolean suscripcion(String usuario, String topico) throws RemoteException;
     String verificaBuzonNotificaciones(String usuario) throws RemoteException;
     boolean desuscripcion(String usuario, String topico) throws RemoteException;
+    void publicaAnuncio(String usuario, String topico, String mensaje) throws RemoteException;
 }

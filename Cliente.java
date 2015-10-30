@@ -1,4 +1,3 @@
-
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.util.Random;
@@ -43,12 +42,17 @@ public class Cliente {
             ps.suscripcion("Fionis", "Mascotas");
             ps.suscripcion("Fionis", "Salchichas");
             
-            registro_correcto = ps.registrarse("Toñita");
+            registro_correcto = ps.registrarse("ToÃ±ita");
             System.out.println("Registrandose en el sistema. " + registro_correcto);
-            ps.suscripcion("Toñita", "Mascotas");
-            ps.suscripcion("Toñita", "Salchichas");
+            ps.suscripcion("ToÃ±ita", "Mascotas");
+            ps.suscripcion("ToÃ±ita", "Salchichas");
             ////////////////////////////////////////////////
-           
+            
+            /////////////////////////////////////////
+            //El usuario quiere mandar un anuncio a Mascotasa
+            System.out.println("Publicando un anuncio");
+            ps.publicaAnuncio("Fionis", "Mascotas", "Se venden croquetas palPerro");
+            //System.out.println("Despues de publicar un anuncio");
             
             String notificacion = "1";
             
@@ -62,12 +66,12 @@ public class Cliente {
                 System.out.println("Leyendo notificacion Fionis'" + notificacion + "'");
             }  while(notificacion != null); 
             
-            
+                        
             System.out.println("Cliente Terminado");
 
             
         } catch (Exception e) {
-            System.err.println("Excepción en el Cliente: " + e.toString());
+            System.err.println("ExcepciÃ³n en el Cliente: " + e.toString());
             e.printStackTrace();
         }
     }

@@ -17,7 +17,7 @@ public class Servidor implements PublicacionSuscripcion {
 
     public boolean registrarse(String nombre_de_usuario) {
 
-        System.out.println("registrarse: Petición de agregar nombre_de_usuario:  "+nombre_de_usuario);
+        System.out.println("registrarse: PeticiÃ³n de agregar nombre_de_usuario:  "+nombre_de_usuario);
         //El usuario ya existe
         if(!usuarios.containsKey(nombre_de_usuario)) {
             usuarios.put(nombre_de_usuario, new Usuario(nombre_de_usuario));
@@ -30,7 +30,7 @@ public class Servidor implements PublicacionSuscripcion {
     }
     
     public boolean suscripcion(String usuario, String topico) {
-        System.out.println("suscripcion: Petición de suscribir usuario:  "+usuario + "a grupo: " + topico);
+        System.out.println("suscripcion: PeticiÃ³n de suscribir usuario:  "+usuario + "a grupo: " + topico);
         
         //Verificar que el topico exista
         if(!grupos.containsKey(topico)) {
@@ -59,7 +59,23 @@ public class Servidor implements PublicacionSuscripcion {
         return u.leeNotificacion();
     }
             
-            
+    public void publicaAnuncio(String usuario, String topico, String mensaje)
+    {
+       Grupo g; 
+       //Existe el grupo indicado?
+       if(!grupos.containsKey(topico)) {
+            grupos.put(topico, new Grupo(topico));
+            System.out.println("suscripcion: Grupo "+topico+" es nuevo. Agregando a la memoria.");
+        }
+       
+       //El grupo ya existe
+       g = grupos.get(topico);
+       System.out.println("Mandando anuncio "+mensaje+" a Grupo "+topico+" ");
+       //Manda el anuncio
+       g.broadcast(new Notificacion(mensaje));
+
+    }        
+    
     public static void main(String args[]) {
 
         try {
