@@ -26,9 +26,10 @@ public class Usuario {
     
     public String leeNotificacion() {
         Notificacion n = this.buzon.poll();
-        if (n==null) { 
+        if (n==null) {
             return null;
-        }        
+        }
+        
         return n.leer();
     }
  

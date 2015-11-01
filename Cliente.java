@@ -1,80 +1,69 @@
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
-import java.util.Random;
-import java.io.*;
 
 public class Cliente {
 
-    private Cliente() {}
+    String usuario;
+    Registry registry;
+    PublicacionSuscripcion ps;
     
-    public static void main(String[] args) {
-
-        //String host = (args.length < 1) ? null : args[0];
+    public Cliente(String usuario_arg, String host) {
+        this.usuario = usuario_arg;
         
-        String host = args[0];
-        String usuario = args[1];
         
         try {
-            Registry registry = LocateRegistry.getRegistry(host);
-            PublicacionSuscripcion ps = (PublicacionSuscripcion) registry.lookup("PublicacionSuscripcion");
-            
-            
-            boolean registro_correcto = ps.registrarse(usuario);
-            System.out.println("Registrandose en el sistema. " + registro_correcto);
-            
-            
-            
-            
-            boolean resultado;
-            resultado = ps.suscripcion(usuario, "Mascotas");
-            System.out.println("Suscribiendo al topico -Mascotas- " + resultado);
-            
-            resultado = ps.suscripcion(usuario, "Mascotas");
-            System.out.println("Suscribiendo al topico -Mascotas- " + resultado);
-            
-            resultado = ps.suscripcion(usuario, "Salchichas");
-            System.out.println("Suscribiendo al topico -Salchichas- " + resultado);
-            
-            
- //Borrar despues/////////////////////////////
-            registro_correcto = ps.registrarse("Fionis");
-            System.out.println("Registrandose en el sistema. " + registro_correcto);
-            ps.suscripcion("Fionis", "Mascotas");
-            ps.suscripcion("Fionis", "Salchichas");
-            
-            registro_correcto = ps.registrarse("ToÃ±ita");
-            System.out.println("Registrandose en el sistema. " + registro_correcto);
-            ps.suscripcion("ToÃ±ita", "Mascotas");
-            ps.suscripcion("ToÃ±ita", "Salchichas");
-            ////////////////////////////////////////////////
-            
-            /////////////////////////////////////////
-            //El usuario quiere mandar un anuncio a Mascotasa
-            System.out.println("Publicando un anuncio");
-            ps.publicaAnuncio("Fionis", "Mascotas", "Se venden croquetas palPerro");
-
-            ps.hacerOferta(1,95);
-            ps.venderProducto("gaby1", 1, 95, true);
-            
-            
-            String notificacion = "1";
-            
-            do {
-                notificacion = ps.verificaBuzonNotificaciones(usuario);
-                System.out.println("Leyendo notificacion '" + notificacion + "'");
-            }  while(notificacion != null);     
-            
-            do {
-                notificacion = ps.verificaBuzonNotificaciones("Fionis");
-                System.out.println("Leyendo notificacion Fionis'" + notificacion + "'");
-            }  while(notificacion != null); 
-                        
-            System.out.println("Cliente Terminado");
-
-            
+            this.registry = LocateRegistry.getRegistry(host);
+            this.ps = (PublicacionSuscripcion) registry.lookup("PublicacionSuscripcion");
+            boolean registro_correcto = ps.registrarse(this.usuario);
         } catch (Exception e) {
-            System.err.println("ExcepciÃ³n en el Cliente: " + e.toString());
+            System.err.println("Excepcion en el Cliente: " + e.toString());
             e.printStackTrace();
         }
     }
-}
+    
+    public boolean suscripcion(String topico) {
+        try {
+            return this.ps.suscripcion(this.usuario, topico);
+ 
+        } catch (Exception e) {
+            System.err.println("Excepción en el Cliente: " + e.toString());
+            e.printStackTrace();
+            return false;
+        }
+    }
+    
+    public boolean desuscripcion(String topico) {
+        try {
+            return this.ps.desuscripcion(this.usuario, topico);
+ 
+        } catch (Exception e) {
+            System.err.println("Excepción en el Cliente: " + e.toString());
+            e.printStackTrace();
+            return false;
+        }
+    }
+    
+    public String verificaBuzonNotificaciones() {
+        try {
+            return this.ps.verificaBuzonNotificaciones(this.usuario);
+ 
+        } catch (Exception e) {
+            System.err.println("Excepción en el Cliente: " + e.toString());
+            e.printStackTrace();
+            return "Error";
+        }
+    }
+    
+    public void publicaAnuncio(String topico, String mensaje) {
+        try {
+            this.ps.publicaAnuncio(this.usuario, topico, mensaje);
+ 
+        } catch (Exception e) {
+            System.err.println("Excepción en el Cliente: " + e.toString());
+            e.printStackTrace();
+            return;
+        }
+    }
+    
+    
+ }

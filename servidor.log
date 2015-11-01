@@ -1,0 +1,559 @@
+Servidor Listo
+Servidor Listo
+Servidor Listo
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike es nuevo. Agregando a la memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: mascotas
+suscripcion: Grupo mascotas es nuevo. Agregando a la memoria.
+Grupo[mascotas].subscribir: Usuario mike
+Grupo[mascotas].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby es nuevo. Agregando a la memoria.
+suscripcion: Petici髇 de suscribir usuario:  gaby a grupo: mascotas
+suscripcion: Grupo mascotas ya esta en memoria.
+Grupo[mascotas].subscribir: Usuario gaby
+Grupo[mascotas].suscribir: Usuario gaby no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  gaby a grupo: refris
+suscripcion: Grupo refris es nuevo. Agregando a la memoria.
+Grupo[refris].subscribir: Usuario gaby
+Grupo[refris].suscribir: Usuario gaby no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby ya esta en memoria.
+Mandando anuncio Se vende refrigerador para perritos a Grupo mascotas 
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+Servidor Listo
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike es nuevo. Agregando a la memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: mascotas
+suscripcion: Grupo mascotas es nuevo. Agregando a la memoria.
+Grupo[mascotas].subscribir: Usuario mike
+Grupo[mascotas].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby es nuevo. Agregando a la memoria.
+suscripcion: Petici髇 de suscribir usuario:  gaby a grupo: mascotas
+suscripcion: Grupo mascotas ya esta en memoria.
+Grupo[mascotas].subscribir: Usuario gaby
+Grupo[mascotas].suscribir: Usuario gaby no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  gaby a grupo: refris
+suscripcion: Grupo refris es nuevo. Agregando a la memoria.
+Grupo[refris].subscribir: Usuario gaby
+Grupo[refris].suscribir: Usuario gaby no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby ya esta en memoria.
+Mandando anuncio Se vende refrigerador para perritos a Grupo mascotas 
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+Servidor Listo
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike es nuevo. Agregando a la memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: mascotas
+suscripcion: Grupo mascotas es nuevo. Agregando a la memoria.
+Grupo[mascotas].subscribir: Usuario mike
+Grupo[mascotas].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby es nuevo. Agregando a la memoria.
+suscripcion: Petici髇 de suscribir usuario:  gaby a grupo: mascotas
+suscripcion: Grupo mascotas ya esta en memoria.
+Grupo[mascotas].subscribir: Usuario gaby
+Grupo[mascotas].suscribir: Usuario gaby no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  gaby a grupo: refris
+suscripcion: Grupo refris es nuevo. Agregando a la memoria.
+Grupo[refris].subscribir: Usuario gaby
+Grupo[refris].suscribir: Usuario gaby no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby ya esta en memoria.
+Mandando anuncio Se vende refrigerador para perritos a Grupo mascotas 
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+Servidor Listo
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike es nuevo. Agregando a la memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: mascotas
+suscripcion: Grupo mascotas es nuevo. Agregando a la memoria.
+Grupo[mascotas].subscribir: Usuario mike
+Grupo[mascotas].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: mascotas
+suscripcion: Grupo mascotas ya esta en memoria.
+Grupo[mascotas].subscribir: Usuario mike
+Grupo[mascotas].subscribir: Usuario mike ya existe en este grupo
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby es nuevo. Agregando a la memoria.
+suscripcion: Petici髇 de suscribir usuario:  gaby a grupo: mascotas
+suscripcion: Grupo mascotas ya esta en memoria.
+Grupo[mascotas].subscribir: Usuario gaby
+Grupo[mascotas].suscribir: Usuario gaby no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  gaby a grupo: mascotas
+suscripcion: Grupo mascotas ya esta en memoria.
+Grupo[mascotas].subscribir: Usuario gaby
+Grupo[mascotas].subscribir: Usuario gaby ya existe en este grupo
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  gaby del grupo: mascotas
+Grupo[mascotas].desubscribir: Usuario gaby
+Grupo[mascotas].desubscribir: Usuario gaby TRUE
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  gaby del grupo: mascotas
+Grupo[mascotas].desubscribir: Usuario gaby
+Grupo[mascotas].desubscribir: Usuario gaby FALSE
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  gaby del grupo: autos
+desuscripcion: Grupo autos no existe
+registrarse: Petici贸n de agregar nombre_de_usuario:  fiona
+registrarse: Usuario fiona es nuevo. Agregando a la memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  fiona del grupo: mascotas
+Grupo[mascotas].desubscribir: Usuario fiona
+Grupo[mascotas].desubscribir: Usuario fiona FALSE
+registrarse: Petici贸n de agregar nombre_de_usuario:  pancho
+registrarse: Usuario pancho es nuevo. Agregando a la memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  pancho del grupo: mochilas
+desuscripcion: Grupo mochilas no existe
+Servidor Listo
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike es nuevo. Agregando a la memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: mascotas
+suscripcion: Grupo mascotas es nuevo. Agregando a la memoria.
+Grupo[mascotas].subscribir: Usuario mike
+Grupo[mascotas].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: mascotas
+suscripcion: Grupo mascotas ya esta en memoria.
+Grupo[mascotas].subscribir: Usuario mike
+Grupo[mascotas].subscribir: Usuario mike ya existe en este grupo
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby es nuevo. Agregando a la memoria.
+suscripcion: Petici髇 de suscribir usuario:  gaby a grupo: mascotas
+suscripcion: Grupo mascotas ya esta en memoria.
+Grupo[mascotas].subscribir: Usuario gaby
+Grupo[mascotas].suscribir: Usuario gaby no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  gaby a grupo: mascotas
+suscripcion: Grupo mascotas ya esta en memoria.
+Grupo[mascotas].subscribir: Usuario gaby
+Grupo[mascotas].subscribir: Usuario gaby ya existe en este grupo
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  gaby del grupo: mascotas
+Grupo[mascotas].desubscribir: Usuario gaby
+Grupo[mascotas].desubscribir: Usuario gaby TRUE
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  gaby del grupo: mascotas
+Grupo[mascotas].desubscribir: Usuario gaby
+Grupo[mascotas].desubscribir: Usuario gaby FALSE
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  gaby del grupo: autos
+desuscripcion: Grupo autos no existe
+registrarse: Petici贸n de agregar nombre_de_usuario:  fiona
+registrarse: Usuario fiona es nuevo. Agregando a la memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  fiona del grupo: mascotas
+Grupo[mascotas].desubscribir: Usuario fiona
+Grupo[mascotas].desubscribir: Usuario fiona FALSE
+registrarse: Petici贸n de agregar nombre_de_usuario:  pancho
+registrarse: Usuario pancho es nuevo. Agregando a la memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  pancho del grupo: mochilas
+desuscripcion: Grupo mochilas no existe
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: topicoa
+suscripcion: Grupo topicoa es nuevo. Agregando a la memoria.
+Grupo[topicoa].subscribir: Usuario mike
+Grupo[topicoa].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: topicob
+suscripcion: Grupo topicob es nuevo. Agregando a la memoria.
+Grupo[topicob].subscribir: Usuario mike
+Grupo[topicob].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicoa
+Grupo[topicoa].desubscribir: Usuario mike
+Grupo[topicoa].desubscribir: Usuario mike TRUE
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicob
+Grupo[topicob].desubscribir: Usuario mike
+Grupo[topicob].desubscribir: Usuario mike TRUE
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: topicoa
+suscripcion: Grupo topicoa ya esta en memoria.
+Grupo[topicoa].subscribir: Usuario mike
+Grupo[topicoa].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: topicob
+suscripcion: Grupo topicob ya esta en memoria.
+Grupo[topicob].subscribir: Usuario mike
+Grupo[topicob].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicob
+Grupo[topicob].desubscribir: Usuario mike
+Grupo[topicob].desubscribir: Usuario mike TRUE
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicoa
+Grupo[topicoa].desubscribir: Usuario mike
+Grupo[topicoa].desubscribir: Usuario mike TRUE
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: topicoa
+suscripcion: Grupo topicoa ya esta en memoria.
+Grupo[topicoa].subscribir: Usuario mike
+Grupo[topicoa].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: topicob
+suscripcion: Grupo topicob ya esta en memoria.
+Grupo[topicob].subscribir: Usuario mike
+Grupo[topicob].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicob
+Grupo[topicob].desubscribir: Usuario mike
+Grupo[topicob].desubscribir: Usuario mike TRUE
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicob
+Grupo[topicob].desubscribir: Usuario mike
+Grupo[topicob].desubscribir: Usuario mike FALSE
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicoa
+Grupo[topicoa].desubscribir: Usuario mike
+Grupo[topicoa].desubscribir: Usuario mike TRUE
+Servidor Listo
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike es nuevo. Agregando a la memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: mascotas
+suscripcion: Grupo mascotas es nuevo. Agregando a la memoria.
+Grupo[mascotas].subscribir: Usuario mike
+Grupo[mascotas].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: mascotas
+suscripcion: Grupo mascotas ya esta en memoria.
+Grupo[mascotas].subscribir: Usuario mike
+Grupo[mascotas].subscribir: Usuario mike ya existe en este grupo
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby es nuevo. Agregando a la memoria.
+suscripcion: Petici髇 de suscribir usuario:  gaby a grupo: mascotas
+suscripcion: Grupo mascotas ya esta en memoria.
+Grupo[mascotas].subscribir: Usuario gaby
+Grupo[mascotas].suscribir: Usuario gaby no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  gaby a grupo: mascotas
+suscripcion: Grupo mascotas ya esta en memoria.
+Grupo[mascotas].subscribir: Usuario gaby
+Grupo[mascotas].subscribir: Usuario gaby ya existe en este grupo
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  gaby del grupo: mascotas
+Grupo[mascotas].desubscribir: Usuario gaby
+Grupo[mascotas].desubscribir: Usuario gaby TRUE
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  gaby del grupo: mascotas
+Grupo[mascotas].desubscribir: Usuario gaby
+Grupo[mascotas].desubscribir: Usuario gaby FALSE
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  gaby del grupo: autos
+desuscripcion: Grupo autos no existe
+registrarse: Petici贸n de agregar nombre_de_usuario:  fiona
+registrarse: Usuario fiona es nuevo. Agregando a la memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  fiona del grupo: mascotas
+Grupo[mascotas].desubscribir: Usuario fiona
+Grupo[mascotas].desubscribir: Usuario fiona FALSE
+registrarse: Petici贸n de agregar nombre_de_usuario:  pancho
+registrarse: Usuario pancho es nuevo. Agregando a la memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  pancho del grupo: mochilas
+desuscripcion: Grupo mochilas no existe
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: topicoa
+suscripcion: Grupo topicoa es nuevo. Agregando a la memoria.
+Grupo[topicoa].subscribir: Usuario mike
+Grupo[topicoa].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: topicob
+suscripcion: Grupo topicob es nuevo. Agregando a la memoria.
+Grupo[topicob].subscribir: Usuario mike
+Grupo[topicob].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicoa
+Grupo[topicoa].desubscribir: Usuario mike
+Grupo[topicoa].desubscribir: Usuario mike TRUE
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicob
+Grupo[topicob].desubscribir: Usuario mike
+Grupo[topicob].desubscribir: Usuario mike TRUE
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: topicoa
+suscripcion: Grupo topicoa ya esta en memoria.
+Grupo[topicoa].subscribir: Usuario mike
+Grupo[topicoa].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: topicob
+suscripcion: Grupo topicob ya esta en memoria.
+Grupo[topicob].subscribir: Usuario mike
+Grupo[topicob].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicob
+Grupo[topicob].desubscribir: Usuario mike
+Grupo[topicob].desubscribir: Usuario mike TRUE
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicoa
+Grupo[topicoa].desubscribir: Usuario mike
+Grupo[topicoa].desubscribir: Usuario mike TRUE
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: topicoa
+suscripcion: Grupo topicoa ya esta en memoria.
+Grupo[topicoa].subscribir: Usuario mike
+Grupo[topicoa].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: topicob
+suscripcion: Grupo topicob ya esta en memoria.
+Grupo[topicob].subscribir: Usuario mike
+Grupo[topicob].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicob
+Grupo[topicob].desubscribir: Usuario mike
+Grupo[topicob].desubscribir: Usuario mike TRUE
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicob
+Grupo[topicob].desubscribir: Usuario mike
+Grupo[topicob].desubscribir: Usuario mike FALSE
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicoa
+Grupo[topicoa].desubscribir: Usuario mike
+Grupo[topicoa].desubscribir: Usuario mike TRUE
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: topicoa
+suscripcion: Grupo topicoa ya esta en memoria.
+Grupo[topicoa].subscribir: Usuario mike
+Grupo[topicoa].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: topicob
+suscripcion: Grupo topicob ya esta en memoria.
+Grupo[topicob].subscribir: Usuario mike
+Grupo[topicob].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicob
+Grupo[topicob].desubscribir: Usuario mike
+Grupo[topicob].desubscribir: Usuario mike TRUE
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicoc
+desuscripcion: Grupo topicoc no existe
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicob
+Grupo[topicob].desubscribir: Usuario mike
+Grupo[topicob].desubscribir: Usuario mike FALSE
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicoa
+Grupo[topicoa].desubscribir: Usuario mike
+Grupo[topicoa].desubscribir: Usuario mike TRUE
+Servidor Listo
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike es nuevo. Agregando a la memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: mascotas
+suscripcion: Grupo mascotas es nuevo. Agregando a la memoria.
+Grupo[mascotas].subscribir: Usuario mike
+Grupo[mascotas].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: mascotas
+suscripcion: Grupo mascotas ya esta en memoria.
+Grupo[mascotas].subscribir: Usuario mike
+Grupo[mascotas].subscribir: Usuario mike ya existe en este grupo
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby es nuevo. Agregando a la memoria.
+suscripcion: Petici髇 de suscribir usuario:  gaby a grupo: mascotas
+suscripcion: Grupo mascotas ya esta en memoria.
+Grupo[mascotas].subscribir: Usuario gaby
+Grupo[mascotas].suscribir: Usuario gaby no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  gaby a grupo: mascotas
+suscripcion: Grupo mascotas ya esta en memoria.
+Grupo[mascotas].subscribir: Usuario gaby
+Grupo[mascotas].subscribir: Usuario gaby ya existe en este grupo
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  gaby del grupo: mascotas
+Grupo[mascotas].desubscribir: Usuario gaby
+Grupo[mascotas].desubscribir: Usuario gaby TRUE
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  gaby del grupo: mascotas
+Grupo[mascotas].desubscribir: Usuario gaby
+Grupo[mascotas].desubscribir: Usuario gaby FALSE
+registrarse: Petici贸n de agregar nombre_de_usuario:  gaby
+registrarse: Usuario gaby ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  gaby del grupo: autos
+desuscripcion: Grupo autos no existe
+registrarse: Petici贸n de agregar nombre_de_usuario:  fiona
+registrarse: Usuario fiona es nuevo. Agregando a la memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  fiona del grupo: mascotas
+Grupo[mascotas].desubscribir: Usuario fiona
+Grupo[mascotas].desubscribir: Usuario fiona FALSE
+registrarse: Petici贸n de agregar nombre_de_usuario:  pancho
+registrarse: Usuario pancho es nuevo. Agregando a la memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  pancho del grupo: mochilas
+desuscripcion: Grupo mochilas no existe
+registrarse: Petici贸n de agregar nombre_de_usuario:  pancho
+registrarse: Usuario pancho ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  pancho a grupo: mochilas
+suscripcion: Grupo mochilas es nuevo. Agregando a la memoria.
+Grupo[mochilas].subscribir: Usuario pancho
+Grupo[mochilas].suscribir: Usuario pancho no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: topicoa
+suscripcion: Grupo topicoa es nuevo. Agregando a la memoria.
+Grupo[topicoa].subscribir: Usuario mike
+Grupo[topicoa].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: topicob
+suscripcion: Grupo topicob es nuevo. Agregando a la memoria.
+Grupo[topicob].subscribir: Usuario mike
+Grupo[topicob].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicoa
+Grupo[topicoa].desubscribir: Usuario mike
+Grupo[topicoa].desubscribir: Usuario mike TRUE
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicob
+Grupo[topicob].desubscribir: Usuario mike
+Grupo[topicob].desubscribir: Usuario mike TRUE
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: topicoa
+suscripcion: Grupo topicoa ya esta en memoria.
+Grupo[topicoa].subscribir: Usuario mike
+Grupo[topicoa].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: topicob
+suscripcion: Grupo topicob ya esta en memoria.
+Grupo[topicob].subscribir: Usuario mike
+Grupo[topicob].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicob
+Grupo[topicob].desubscribir: Usuario mike
+Grupo[topicob].desubscribir: Usuario mike TRUE
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicoa
+Grupo[topicoa].desubscribir: Usuario mike
+Grupo[topicoa].desubscribir: Usuario mike TRUE
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: topicoa
+suscripcion: Grupo topicoa ya esta en memoria.
+Grupo[topicoa].subscribir: Usuario mike
+Grupo[topicoa].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: topicob
+suscripcion: Grupo topicob ya esta en memoria.
+Grupo[topicob].subscribir: Usuario mike
+Grupo[topicob].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicob
+Grupo[topicob].desubscribir: Usuario mike
+Grupo[topicob].desubscribir: Usuario mike TRUE
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicob
+Grupo[topicob].desubscribir: Usuario mike
+Grupo[topicob].desubscribir: Usuario mike FALSE
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicoa
+Grupo[topicoa].desubscribir: Usuario mike
+Grupo[topicoa].desubscribir: Usuario mike TRUE
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: topicoa
+suscripcion: Grupo topicoa ya esta en memoria.
+Grupo[topicoa].subscribir: Usuario mike
+Grupo[topicoa].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+suscripcion: Petici髇 de suscribir usuario:  mike a grupo: topicob
+suscripcion: Grupo topicob ya esta en memoria.
+Grupo[topicob].subscribir: Usuario mike
+Grupo[topicob].suscribir: Usuario mike no existe en este grupo. Agregando
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicob
+Grupo[topicob].desubscribir: Usuario mike
+Grupo[topicob].desubscribir: Usuario mike TRUE
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicoc
+desuscripcion: Grupo topicoc no existe
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicob
+Grupo[topicob].desubscribir: Usuario mike
+Grupo[topicob].desubscribir: Usuario mike FALSE
+registrarse: Petici贸n de agregar nombre_de_usuario:  mike
+registrarse: Usuario mike ya esta en memoria.
+desuscripcion: Petici髇 de desuscribir usuario:  mike del grupo: topicoa
+Grupo[topicoa].desubscribir: Usuario mike
+Grupo[topicoa].desubscribir: Usuario mike TRUE
