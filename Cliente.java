@@ -52,7 +52,10 @@ public class Cliente {
             //El usuario quiere mandar un anuncio a Mascotasa
             System.out.println("Publicando un anuncio");
             ps.publicaAnuncio("Fionis", "Mascotas", "Se venden croquetas palPerro");
-            //System.out.println("Despues de publicar un anuncio");
+
+            ps.hacerOferta(1,95);
+            ps.venderProducto("gaby1", 1, 95, true);
+            
             
             String notificacion = "1";
             
@@ -65,7 +68,6 @@ public class Cliente {
                 notificacion = ps.verificaBuzonNotificaciones("Fionis");
                 System.out.println("Leyendo notificacion Fionis'" + notificacion + "'");
             }  while(notificacion != null); 
-            
                         
             System.out.println("Cliente Terminado");
 
