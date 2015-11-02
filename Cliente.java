@@ -65,5 +65,34 @@ public class Cliente {
         }
     }
     
+    public boolean hacerOferta(String noMensaje, String precio) {
+        try {
+            //int num = Integer.parseInt(noMensaje);
+            //float pr = Float.parseFloat(precio);
+            
+            return this.ps.hacerOferta(this.usuario, noMensaje, precio);
+ 
+        } catch (Exception e) {
+            System.err.println("Excepción en el Cliente: " + e.toString());
+            e.printStackTrace();
+            return false;
+        }
+    }
+    
+    public boolean venderProducto(String noMensaje, String precio, boolean venta, String comprador) {
+        try {
+            //int num = Integer.parseInt(noMensaje);
+            //float pr = Float.parseFloat(precio);
+            
+            return this.ps.venderProducto(comprador, noMensaje, precio, venta);
+ 
+        } catch (Exception e) {
+            System.err.println("Excepción en el Cliente: " + e.toString());
+            e.printStackTrace();
+            return false;
+        }
+    }
+    
+    
     
  }

@@ -44,3 +44,78 @@ java ClienteCmd -usuario Mike -servidor localhost -desuscripcion topicoC
 java ClienteCmd -usuario Mike -servidor localhost -desuscripcion topicoB
 java ClienteCmd -usuario Mike -servidor localhost -desuscripcion topicoA
 echo '#Fin'
+
+
+
+java ClienteCmd -usuario Mike -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Mike -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Mike -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Mike -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Mike -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Mike -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Mike -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Mike -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Mike -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Mike -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Mike -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Mike -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Mike -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Mike -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Mike -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Mike -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Mike -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Mike -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Mike -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Mike -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Mike -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Mike -servidor localhost -verificaBuzonNotificaciones
+
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+java ClienteCmd -usuario Gaby -servidor localhost -verificaBuzonNotificaciones
+
+
+

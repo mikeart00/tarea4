@@ -18,11 +18,9 @@ public class Notificacion {
         this.leida = false;
     }
     
-    public Notificacion(String Usuario, int num_msj, float precio)
+    public Notificacion(String Usuario, String num_msj, String precio)
     { //hacer ofertas a algun anuncio
-       String id = String.valueOf(num_msj);
-       String value = String.valueOf(precio);
-       this.mensaje = "Oferta recibida::Para anuncio num:"+id+"::De:"+Usuario+"::Por:"+value;
+       this.mensaje = "Oferta recibida::Para anuncio num:"+num_msj+"::De:"+Usuario+"::Por:"+precio;
     }        
     
     public Notificacion(String Usuario, String num_mensaje, Boolean venta)

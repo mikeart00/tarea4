@@ -65,7 +65,14 @@ public class Servidor implements PublicacionSuscripcion {
     public String verificaBuzonNotificaciones(String usuario) {
         Usuario u = usuarios.get(usuario);
         
-        return u.leeNotificacion();
+        String resultado = u.leeNotificacion();
+        
+        if(resultado == null) {
+            return "ninguno";
+        }
+        
+        
+        return resultado;
     }
             
     public void publicaAnuncio(String Usuario, String topico, String mensaje)
@@ -92,31 +99,33 @@ public class Servidor implements PublicacionSuscripcion {
 
     }     
 
-public boolean hacerOferta(int num_mensaje, float precio)
+public boolean hacerOferta(String comprador, String num_mensaje, String precio)
     {
-       Usuario u;
-       String msj = Integer.toString(num_mensaje);
-       System.out.println("HacerOferta - msj num: "+msj+"");
+       Usuario vendedor;
+       System.out.println("HacerOferta - msj num: "+num_mensaje+"");
       
        //Encontrar si ese num de oferta esta registrado
-       if(!anuncios.containsKey(msj)) {
+       if(!anuncios.containsKey(num_mensaje)) {
          System.out.println("Anuncio no encontrado");
+         Usuario comp = usuarios.get(comprador);
+         comp.agregaNotificacion(new Notificacion ("El anuncio no fue encontrado o ya fue vendido"));
+         
          return false;
        } 
        
        //Ya lo encontramos, ahora hay que obtener el usuario que lo mando.
-       u = anuncios.get(msj);
+       vendedor = anuncios.get(num_mensaje);
        //Mandarle la oferta al usuario que publico el anuncio
-       Notificacion u2 = new Notificacion(u.nombre_de_usuario, num_mensaje, precio); 
-       u.agregaNotificacion(u2);
-       return false; 
+       Notificacion notificacion = new Notificacion(comprador, num_mensaje, precio); 
+       vendedor.agregaNotificacion(notificacion);
+       return true; 
     }    
     
-    public boolean venderProducto(String Usuario, int num_mensaje, float precio, boolean venta)
+    public boolean venderProducto(String Usuario, String num_mensaje, String precio, boolean venta)
     {
        //Usuario es el usuario al que se le vendera el producto. 
-       String msj = Integer.toString(num_mensaje);
-       System.out.println("venderproducto - msj num: "+msj+"");
+       
+       System.out.println("venderproducto - msj num: "+num_mensaje+"");
        Notificacion n;
        Usuario comprador;
        
@@ -127,7 +136,7 @@ public boolean hacerOferta(int num_mensaje, float precio)
        }
        
        //Existe el anuncio?
-       if(!anuncios.containsKey(msj)) {
+       if(!anuncios.containsKey(num_mensaje)) {
          System.out.println("Anuncio no encontrado");
          return false;
        }
@@ -137,15 +146,15 @@ public boolean hacerOferta(int num_mensaje, float precio)
        if(venta == true)
        {
          //Mandar notificacion de que si se realizara la venta  
-         n = new Notificacion(comprador.nombre_de_usuario, msj, true);
+         n = new Notificacion(comprador.nombre_de_usuario, num_mensaje, true);
          comprador.agregaNotificacion(n);
-         anuncios.remove(msj);
+         anuncios.remove(num_mensaje);
          System.out.println("Compra completada");  
        }
        else 
        { 
          // mandar notificacion de que se rechazo la oferta  
-         n = new Notificacion(comprador.nombre_de_usuario, msj, false);
+         n = new Notificacion(comprador.nombre_de_usuario, num_mensaje, false);
          comprador.agregaNotificacion(n);
        }
        return true;

@@ -19,7 +19,9 @@ public class ClienteCmd {
         System.out.println("  -suscripcion <s>               Suscribirse a los anuncions del Topico");
         System.out.println("  -desuscripcion <s>             Desuscribirse a los anuncions del Topico");
         System.out.println("  -publicaAnuncio <s> <s>        Publica un anuncio en el Topico <s> con el mensaje <s>");
-        System.out.println("  -verificaBuzonNotificaciones   Verifica si hay notificaciones nuevas");
+        System.out.println("  -hacerOferta <s> <s>           Hacer una oferta en el anuncio Numero <s> por la cantidad <s>");
+        System.out.println("  -aceptarOferta <s> <s>         Aceptar la oferta del anuncio <s> del usuario <s>");
+        System.out.println("  -rechazarOferta <s> <s>        Rechazar la oferta del anuncio <s> del usuario <s>");
         System.out.println("  -ayuda                         Mostrar ayuda");
         System.out.println("");
         System.out.println("  java ClienteCmd -servidor localhost -usuario Fiona -suscripcion Mascotas");
@@ -35,6 +37,9 @@ public class ClienteCmd {
         String comando = null;
         String topico = null;
         String mensaje = null;
+        String id_arg = null;
+        String cantidad_arg = null;
+        String comprador = null;
         
         
         
@@ -88,6 +93,48 @@ public class ClienteCmd {
                     }
                     mensaje = args[i];
                     break; 
+                case "-hacerOferta":
+                    i++;
+                    if(i >= args.length) {
+                        ayuda();
+                        return;
+                    }
+                    id_arg = args[i];
+                    i++;
+                    if(i >= args.length) {
+                        ayuda();
+                        return;
+                    }
+                    cantidad_arg = args[i];
+                    break;
+                case "-aceptarOferta":
+                    i++;
+                    if(i >= args.length) {
+                        ayuda();
+                        return;
+                    }
+                    id_arg = args[i];
+                    i++;
+                    if(i >= args.length) {
+                        ayuda();
+                        return;
+                    }
+                    comprador = args[i];
+                    break;
+                case "-rechazarOferta":
+                    i++;
+                    if(i >= args.length) {
+                        ayuda();
+                        return;
+                    }
+                    id_arg = args[i];
+                    i++;
+                    if(i >= args.length) {
+                        ayuda();
+                        return;
+                    }
+                    comprador = args[i];
+                    break;
                 case "-verificaBuzonNotificaciones":
                     break; 
                 case "-ayuda":
@@ -112,10 +159,14 @@ public class ClienteCmd {
             topico = topico.toLowerCase();
         }
         
+        if(comprador != null) {
+            comprador = comprador.toLowerCase();
+        }
+        
         Cliente cliente = new Cliente(usuario, servidor);
         
 
-        
+        System.out.println("["+usuario+"]");
         switch(comando) {
             case "-suscripcion":
                 System.out.println("  Intentando suscribir del topico '" + topico + "'");
@@ -132,7 +183,20 @@ public class ClienteCmd {
             case "-publicaAnuncio":
                 System.out.println("  Publicando anuncio en el topico '" + topico + "'");
                 cliente.publicaAnuncio(topico, mensaje);
-                break; 
+                break;
+            case "-hacerOferta":
+                System.out.println("  Haciendo Oferta de $" + cantidad_arg + " sobre anuncio No." + id_arg);
+                System.out.println("  ::" + cliente.hacerOferta(id_arg, cantidad_arg));
+                break;
+            case "-aceptarOferta":
+                System.out.println("  Aceptando Oferta " + id_arg + " de " + comprador);
+                System.out.println("  ::" + cliente.venderProducto(id_arg, "0.0", true, comprador));
+                break;
+            case "-rechazarOferta":
+                System.out.println("  Rechazando oferta " + id_arg + " de " + comprador);
+                System.out.println("  ::" + cliente.venderProducto(id_arg, "0.0", false, comprador));
+                break;
+                
         }
         
     }

@@ -49,6 +49,8 @@ public class Grupo {
         
         if(usuarios.containsKey(usuario)) {
             System.out.println("Grupo[" + this.topico+ "].desubscribir: Usuario "+usuario+" TRUE");
+            broadcast(new Notificacion("El usuario '"+usuario+ "' ha sido desuscrito al topico '" +this.topico+"'"));
+            
             usuarios.remove(usuario);
             return true;
             
